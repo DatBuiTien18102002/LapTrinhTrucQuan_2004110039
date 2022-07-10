@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{840F4396-6A07-4EA2-8726-FE4F325D837B}</ProjectGuid>
+    <ProjectGuid>{DE57B134-A5EB-4AB1-9070-19077D304771}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FirstProject</RootNamespace>
-    <AssemblyName>FirstProject</AssemblyName>
+    <RootNamespace>Bai2Lab1</RootNamespace>
+    <AssemblyName>Bai2Lab1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Tester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
