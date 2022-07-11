@@ -11,7 +11,7 @@ namespace Bai4Lab1
         static void Main(string[] args)
         {
             int n;
-            Console.Write("Nhap vao so sinh vien: ");
+            Console.Write("Nhap vao so nhan vien: ");
             n = Convert.ToInt32(Console.ReadLine());
             List<NhanVien> arrayS = new List<NhanVien>(n);
 
@@ -43,11 +43,11 @@ namespace Bai4Lab1
                 nhaKhoaHoc.HoTen = hoTen;
                 nhaKhoaHoc.NamSinh = namSinh;
                 nhaKhoaHoc.BangCap = bangCap;
-                Console.WriteLine("Chuc vu: {0}");
+                Console.WriteLine("Chuc vu: ");
                 nhaKhoaHoc.ChucVu = Convert.ToString(Console.ReadLine());
-                Console.WriteLine("So ngay cong trong thang: {0}");
+                Console.WriteLine("So ngay cong trong thang: ");
                 nhaKhoaHoc.SoNgayCongTrongThang = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Bac luong: {0}");
+                Console.WriteLine("Bac luong: ");
                 nhaKhoaHoc.BacLuong = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine("So Bai Bao Da Cong Bo:");
@@ -62,11 +62,11 @@ namespace Bai4Lab1
                 nhaQuanLy.NamSinh = namSinh;
                 nhaQuanLy.BangCap = bangCap;
 
-                Console.WriteLine("Chuc vu: {0}");
+                Console.WriteLine("Chuc vu: ");
                 nhaQuanLy.ChucVu = Convert.ToString(Console.ReadLine());
-                Console.WriteLine("So ngay cong trong thang: {0}");
+                Console.WriteLine("So ngay cong trong thang: ");
                 nhaQuanLy.SoNgayCongTrongThang = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Bac luong: {0}");
+                Console.WriteLine("Bac luong: ");
                 nhaQuanLy.BacLuong = Convert.ToInt32(Console.ReadLine());
                 nhanVien = nhaQuanLy;
 
